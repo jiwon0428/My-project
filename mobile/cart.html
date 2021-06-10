@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="pd25">
+        <div class="slog_logo">
+            <h1 class="nav_tt">Cart</h1>
+        </div>
+        <button class="back"><i class="fas fa-arrow-left"></i></button>
+        <!-- <a href="index.html" class="login_btn"><i class="fas fa-arrow-left"></i></a> -->
+    </header>
+
+    <main class="pd25">
+        <form action="#">
+            <h1 class="hidden">cart</h1>
+            <section class="cart_contents">
+                <header class="result nn_normal">
+                    <p>
+                        <em>2개의 상품</em>이 담겨있습니다
+                    </p>
+                </header>
+                <hr class="line_gray">
+                <ul class="cart_list">
+                    <li>
+                        <img src="images/cart_pic_01.png" alt="cart_pic">
+                        <div class="cart_list_info">
+                            <div class="list_tt">
+                                <h2 class="nn_small">말린 부케 캔들</h2>
+                                <h3 class="nn_small tt_gray">Dried bouquet candle</h3>
+                                <h4 class="nn_small">30,000</h4>
+                            </div>
+                            <div class="option">
+                                <label>Quantity</label>
+                                <input type="number" min="1" value="1">
+                                <div class="change_btn tt_gray nn_small"><p>변경</p></div>
+                            </div>
+                        </div>
+                        <span class="circle_close">delete cart item</span>
+                    </li>
+                    <li>
+                        <img src="images/cart_pic_02.png" alt="cart_pic">
+                        <div class="cart_list_info">
+                            <div class="list_tt">
+                                <h2 class="nn_small">핑크 플라워 젤캔들홀더</h2>
+                                <h3 class="nn_small tt_gray">Pink flower kaendeul holder </h3>
+                                <h4 class="nn_small">30,000</h4>
+                            </div>
+                            <div class="option">
+                                <label>Quantity</label>
+                                <input type="number" min="1" value="1">
+                                <div class="change_btn tt_gray nn_small"><p>변경</p></div>
+                            </div>
+                        </div>
+                        <span class="circle_close">delete cart item</span>
+                    </li>
+                    
+                </ul>
+            </section>
+            <hr class="line_gray">
+            <div class="total_checkout">
+                <div class="total">
+                    <div class="item">
+                        <div>
+                            <h5 class="nn_small">총 상품금액</h5>
+                            <h6 class="nn_small">60,000</h6>
+                        </div>
+                        <div>
+                            <h5 class="nn_small">배송비</h5>
+                            <h6 class="nn_small">2,500</h6>
+                        </div>
+                    </div>
+                    <hr class="line_gray">
+                    <div class="item">
+                        <h5 class="nn_small">총 결제금액</h5>
+                        <h6 class="nn_small">62,500</h6>
+                    </div>
+                </div>
+                <a href="order.html" class="big_btn">주문하기</a>
+            </div>
+        </form>
+
+    </main>
+
+    <footer class="pd25">
+        <div class="footer_top">
+            <div class="slog_logo">
+                <h1 class="nav_tt">slog</h1>
+                <div><p class="nav_sm">나만의 일상에<br/>특별함을 더하다</p></div>
+            </div>
+            <div class="ft_sns">
+                <a href="https://www.instagram.com/_s_log_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://blog.naver.com/ssssaet" target="_blank"><p class="nn_small">B</p></a>
+            </div>
+        </div>
+        <address>
+            <div>
+                <p>경기도 용인시 처인구 금령로 27번길 6-1 1층 (우 : 17050</p>
+                <p>사업자등록번호 7120601365</p>
+            </div>
+            <div>
+                <p>+82 6837-8685<br/>ssssaet@naver.com</p>
+            </div>
+        </address>
+        <div class="copyright">
+            <p>COPYRIGHT &copy; 2021 slog ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slog</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="pd25">
+        <a href="index.html">
+            <div class="slog_logo">
+                <h1 class="nav_tt">slog</h1>
+                <div><p class="nav_sm">나만의 일상에<br/>특별함을 더하다</p></div>
+            </div>
+        </a>
+        <button class="aside_toggel_btn">Aside Toogle button</button>
+    </header>
+
+    <div class="popup">
+        <div class="popup_content">
+            <h4 class="nn_normal">본사이트는 <br/>개인 포트폴리오 사이트입니다.</h4>
+            <p class="nn_small">에스로그와는 무관함을 안내드립니다.</p>
+            <ul class="nn_normal">
+                <li>
+                    <h5>주요특징</h5>
+                    <p>html, css, flex, position, jquery, moblie, 웹표준검사(W3C) 완료</p>
+                </li>
+                <li>
+                    <h5>구현완료 페이지</h5>
+                    <p><a href="index.html">메인화면</a>,
+                        <a href="product.html">상품소개</a>,
+                        <a href="details.html">상품상세</a>,
+                        <a href="cart.html">장바구니</a>,
+                        <a href="order.html">주문완료</a>,
+                        <a href="login.html">로그인</a>
+                    </p>
+                </li>
+                <li>
+                    <h5>과정기간</h5>
+                    <p>2020.12.21~2021.06.11</p>
+                </li>
+                <li>
+                    <h5>제작기간</h5>
+                    <p>2021.05.21~2021.06.03</p>
+                </li>
+                <li><p>백지원 bjwon0428@naver.com</p></li>
+            </ul>
+            
+            <div class="popup_check nn_normal">
+                <input type="checkbox" id="popup">
+                <label for="popup">오늘은 더이상 안보기</label>
+                <button class="close">X</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="main_slide_container swiper-container">
+            <ul class="main_slide_wrap swiper-wrapper ">
+                <li class="main_slide swiper-slide ms1 tac">
+                    <h2 class="mb_big" >Dried<br/>flower candle</h2>
+                    <p class="nn_normal">나만의 일상에 감각적인 향과<br/>특별한 분위기를 더하다</p>
+                </li>
+                <li class="main_slide swiper-slide ms2 tac">
+                    <h2 class="mb_big">Making<br/>Cake candle</h2>
+                    <p class="nn_normal">나만의 일상에 감각적인 향과<br/>특별한 분위기를 더하다</p>
+                </li>
+                <li class="main_slide swiper-slide ms3 tac">
+                    <h2 class="mb_big">Sweet<br/>dessert candle</h2>
+                    <p class="nn_normal">나만의 일상에 감각적인 향과<br/>특별한 분위기를 더하다</p>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </section><!-- //main_slide_wrap -->
+
+        <section class="main_best_product">
+            <div class="pd25">
+                <h3 class="mb_normal">Best Product</h3>
+                <p class="mb_small"><a href="product.html" class="tt_gray"><i class="fas fa-plus"></i></a></p>
+            </div>
+            <div class="main_best_slide_container swiper-container">
+                <ul class="main_best_slide_wrap swiper-wrapper">
+                    <li class="main_best_slide swiper-slide">
+                        <img src="images/main_best_product_01.png" alt="best_product_01">
+                        <div>
+                            <h4 class="nn_small">핑크 플라워 젤캔들 홀더</h4>
+                            <h4 class="nn_small tt_gray">Pink Flower Gel Candle Holder</h4>
+                        </div>
+                    </li>
+                    <li class="main_best_slide swiper-slide">
+                        <img src="images/main_best_product_02.png" alt="best_product_02">
+                        <div>
+                            <h4 class="nn_small">부케캔들/말린부케선물</h4>
+                            <h4 class="nn_small tt_gray">Dried bouquet candle</h4>
+                        </div>
+                    </li>
+                    <li class="main_best_slide swiper-slide">
+                        <img src="images/main_best_product_03.png" alt="best_product_02">
+                        <div>
+                            <h4 class="nn_small">필라 오브제 캔들</h4>
+                            <h4 class="nn_small tt_gray">Fila Object Candle</h4>
+                        </div>
+                    </li>
+                    <li class="main_best_slide swiper-slide">
+                        <img src="images/main_best_product_04.png" alt="best_product_02">
+                        <div>
+                            <h4 class="nn_small">생일 케이크 캔들</h4>
+                            <h4 class="nn_small tt_gray">Birthday cake candle</h4>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-scrollbar"></div>
+            </div><!-- //best_product_silde -->
+        </section><!-- //main_best_product -->
+        <section class="brand_info pd25">
+            <div>
+                <h2 class="mb_big">In my<br/>daily life.<br/>add speciality</h2>
+                <div class="info_right">
+                    <h3 class="nn_big">오늘의 기분에<br/>따라 나만의 힐링</h3>
+                    <p class="nn_normal">나만의 일상에 감각적인 향과<br/>특별한 분위기를 더하다</p>
+                </div>
+            </div>
+            <video autoplay loop muted>
+                <source src="https://res.cloudinary.com/dgxub16wi/video/upload/v1622465638/brand_bg_wnvfdr.mp4" type="video/mp4">
+            </video>
+        </section><!-- //brand_info -->
+        <section class="main_product pd25">
+            <div>
+                <h3 class="mb_normal">Product</h3>
+                <p class="mb_small"><a href="product.html" class="tt_gray"><i class="fas fa-plus"></i></a></p>
+            </div>
+            <ul class="main_product_list">
+                <li>
+                    <a href="details.html"><img src="images/product_01.png" alt="bouquet candle"></a>
+                    <div>
+                        <a href="details.html"><h4 class="nn_small">말린 부케 캔들</h4></a>
+                        <h4 class="nn_small tt_gray">Dried bouquet candle</h4>
+                        <h5 class="nn_small">30,000</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/product_02.png" alt="Object Candle">
+                    <div>
+                        <h4 class="nn_small">필라캔들 오브제 캔들</h4>
+                        <h4 class="nn_small tt_gray">Fila Candle Object Candle</h4>
+                        <h5 class="nn_small">8,000</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/product_03.png" alt="Candle holder">
+                    <div>
+                        <h4 class="nn_small">핑크 플라워 젤캔들홀더</h4>
+                        <h4 class="nn_small tt_gray">Pink flower Candle holder</h4>
+                        <h5 class="nn_small">30,000</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/product_04.png" alt="brass candelabra">
+                    <div>
+                        <h4 class="nn_small">버터플라이 브라스 촛대</h4>
+                        <h4 class="nn_small tt_gray">Butterfly brass candelabra</h4>
+                        <h5 class="nn_small">50,000</h5>
+                    </div>
+                </li>
+            </ul>
+        </section><!-- //product -->
+        <section class="oneday_class pd25">
+            <h2 class="mb_normal">One day Class</h2>
+            <hr class="line_white">
+            <h4 class="nn_small">2021.05.24</h4>
+            <h3 class="nn_normal">에스로그 창업반 클래스 안내</h3>
+            <p class="nn_small"><a href="#"><i class="fas fa-circle"></i> Read more</a></p>
+        </section><!-- //oneday_class -->
+    </main>
+    <footer class="pd25">
+        <div class="footer_top">
+            <div class="slog_logo">
+                <h1 class="nav_tt">slog</h1>
+                <div><p class="nav_sm">나만의 일상에<br/>특별함을 더하다</p></div>
+            </div>
+            <div class="ft_sns">
+                <a href="https://www.instagram.com/_s_log_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://blog.naver.com/ssssaet" target="_blank"><p class="nn_small">B</p></a>
+            </div>
+        </div>
+        <address>
+            <div>
+                <p>경기도 용인시 처인구 금령로 27번길 6-1 1층 (우 : 17050</p>
+                <p>사업자등록번호 7120601365</p>
+            </div>
+            <div>
+                <p>+82 6837-8685<br/>ssssaet@naver.com</p>
+            </div>
+        </address>
+        <div class="copyright">
+            <p>COPYRIGHT &copy; 2021 slog ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <aside class="pd25">
+        <div class="aside_top">
+            <a href="index.html">
+                <div class="slog_logo">
+                    <h2 class="nav_tt">slog</h2>
+                    <div><p class="nav_sm">나만의 일상에<br/>특별함을 더하다</p></div>
+                </div>
+            </a>
+            <button class="aside_toggel_close">Aside Toogle button</button>
+        </div>
+        <ul class="aside_category">
+            <li class="aside_title mb_small">product
+                <ul class="mb_normal">
+                    <li><a href="product.html">All product</a></li>
+                    <li><a href="">Candle</a></li>
+                    <li><a href="">Diffuser</a></li>
+                    <li><a href="">Props</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+        <ul class="aside_contact">
+            <li class="aside_title mb_small">slog
+                <ul class="mb_normal">
+                    <li><a href="#">Brand Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="aside_links">
+            <a href="login.html"><i class="fas fa-user"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </aside>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
